@@ -1,19 +1,3 @@
-OkHttp HPACK tests
-==================
-
-These tests use the [hpack-test-case][1] project to validate OkHttp's HPACK
-implementation.  The HPACK test cases are in a separate git submodule, so to
-initialize them, you must run:
-
-    git submodule init
-    git submodule update
-
-TODO
-----
-
- * Add maven goal to avoid manual call to git submodule init.
- * Make hpack-test-case update itself from git, and run new tests.
- * Add maven goal to generate stories and a pull request to hpack-test-case
-   to have others validate our output.
-
-[1]: https://github.com/http2jp/hpack-test-case 
+version https://git-lfs.github.com/spec/v1
+oid sha256:380b107aeb9bd87808f580240863de4129e0ea82effdf5868ede2e8b6338f07a
+size 578

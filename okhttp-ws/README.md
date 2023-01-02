@@ -1,22 +1,3 @@
-OkHttp Web Sockets
-==================
-
-RFC6455-compliant web socket implementation.
-
-Create a `WebSocketCall` with a `Request` and an `OkHttpClient` instance.
-```java
-WebSocketCall call = WebSocketCall.create(client, request);
-```
-
-A `WebSocketListener` will notify of the initial connection, server-sent messages, and any failures
-on the connection.
-
-Start the web socket by calling `enqueue` on `WebSocketCall` with the `WebSocketListener`.
-```java
-call.enqueue(new WebSocketListener() {
-  // ...
-});
-```
-
-*Note: This module's API should be considered experimental and may be subject to breaking changes
-in future releases.*
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf57645e31cff98454ef30a98cee7d7b2b5d5132d3048990eb9bb8621e540ee4
+size 627
